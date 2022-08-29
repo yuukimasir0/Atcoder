@@ -1,0 +1,12 @@
+{
+	"id": 34433846,
+	"epoch_second": 1661733699,
+	"problem_id": "tokiomarine2020_c",
+	"contest_id": "tokiomarine2020",
+	"user_id": "yuukimasir0",
+	"language": "C++ (GCC 9.2.1)",
+	"point": 500,
+	"length": 8552,
+	"result": "AC",
+	"execution_time": 1538
+}
