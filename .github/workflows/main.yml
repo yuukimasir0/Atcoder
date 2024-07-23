@@ -4,6 +4,7 @@ on:
   schedule:
   - cron: "0 0 * * 3"
   push:
+  workflow_dispatch:
 
 jobs:
 
@@ -27,7 +28,6 @@ jobs:
         cd ../../../.procon-gardener
         jq '.atcoder.repository_path|="."' config.json > tmp
         mv tmp config.json
-        #ここを書き換える
         jq '.atcoder.user_id|="yuukimasir0"' config.json > tmp
         mv tmp config.json
         jq '.atcoder.user_email|="plusion00@icloud.com"' config.json > tmp
